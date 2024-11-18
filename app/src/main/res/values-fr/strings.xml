@@ -1,74 +1,74 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">FFShare</string>
-    <string name="menu_item_settings">Settings</string>
+    <string name="menu_item_settings">Paramètres</string>
     <string name="menu_item_logs">Logs</string>
-    <string name="menu_item_delete_logs">Delete all Logs</string>
+    <string name="menu_item_delete_logs">Supprimer tous les logs</string>
 
-    <string name="error_no_uri_intent">No media found in intent</string>
-    <string name="error_unknown_filetype">Unknown/Unsupported filetype</string>
-    <string name="error_invalid_file">Invalid file</string>
+    # <string name="error_no_uri_intent">No media found in intent</string>
+    <string name="error_unknown_filetype">Type de fichier inconnu ou non supportUnsupported filetype</string>
+    <string name="error_invalid_file">Fichier invalide</string>
 
-    <string name="command_x_of_y">%1$d of %2$d</string>
+    <string name="command_x_of_y">%1$d sur %2$d</string>
 
-    <string name="ffmpeg_error">Error compressing media</string>
-    <string name="ffmpeg_canceled">Canceled</string>
+    <string name="ffmpeg_error">Erreur lors de la compression du fichier multimédia</string>
+    <string name="ffmpeg_canceled">Annulé</string>
 
-    <string name="close">Close</string>
-    <string name="ffmpegCommandTitle">FFmpeg command</string>
-    <string name="ffmpegOutputTitle">FFmpeg output</string>
+    <string name="close">Fermer</string>
+    <string name="ffmpegCommandTitle">Commande FFmpeg</string>
+    # <string name="ffmpegOutputTitle">Sortie FFmpeg</string>
 
-    <string name="log_output_copy">Copy</string>
-    <string name="log_copied_toast">Log Saved to Clipboard</string>
-    <string name="logs_disabled" translatable="false">Logs are disabled</string>
+    <string name="log_output_copy">Copier</string>
+    <string name="log_copied_toast">Logs sauvegardés dans le presse-papier</string>
+    <string name="logs_disabled" translatable="false">Les logs sont désactivés</string>
 
     <string name="title_activity_logs">Logs</string>
 
     <string name="version">Version: %s</string>
-    <string name="flavor" tools:ignore="MissingTranslation">Flavor: %s</string>
+    # <string name="flavor" tools:ignore="MissingTranslation">Flavor: %s</string>
 
 
-    <string name="app_description">Compress images and videos through ffmpeg before sharing them</string>
-    <string name="introduction_line_0">App Created by caydey <a href="https://github.com/caydey/ffshare">github</a></string>
-    <string name="introduction_line_1">Functionality (and code) inspired by Scrambled-Exif by juanitobananas <a href="https://gitlab.com/juanitobananas/scrambled-exif">gitlab</a></string>
-    <string name="introduction_line_2">FFmpeg library used is ffmpeg-kit by arthenica <a href="https://github.com/arthenica/ffmpeg-kit">github</a></string>
+    <string name="app_description">Compresser les images et vidéos avec ffmpeg avant de les partager</string>
+    <string name="introduction_line_0">Application créée par caydey <a href="https://github.com/caydey/ffshare">github</a></string>
+    <string name="introduction_line_1">Fonctionnalité (et code) inspirée de Scrambled-Exif par juanitobananas <a href="https://gitlab.com/juanitobananas/scrambled-exif">gitlab</a></string>
+    <string name="introduction_line_2">La librarie FFmpeg utilisée est ffmpeg-kit par arthenica <a href="https://github.com/arthenica/ffmpeg-kit">github</a></string>
 
-    <string name="select_file_button" tools:ignore="MissingTranslation">Select file</string>
+    # <string name="select_file_button" tools:ignore="MissingTranslation">Sélectionner un fichier</string>
 
-    <string name="ffmpeg_command">ffmpeg command running:</string>
-    <string name="input_file">Input file:</string>
-    <string name="input_file_size">Input size:</string>
-    <string name="output_file">Output file:</string>
-    <string name="output_file_size">Output size:</string>
+    <string name="ffmpeg_command">commande ffmpeg en cours d'exécution:</string>
+    <string name="input_file">Fichier d'entrée :</string>
+    <string name="input_file_size">Taille d'entrée :</string>
+    <string name="output_file">Fichier de sortie :</string>
+    <string name="output_file_size">Taille de sortie :</string>
 
-    <string name="processed">Processed</string>
-    <string name="remaining">Remaining</string>
-    <string name="x_of_x">of</string>
+    <string name="processed">Effectué</string>
+    <string name="remaining">Restant</string>
+    <string name="x_of_x">sur</string>
 
-    <string name="word_reduction">reduction</string>
-    <string name="media_reduction_message">%1$s (%2$.1f%% reduction)</string>
+    <string name="word_reduction">réduction</string>
+    <string name="media_reduction_message">%1$s (reduction de %2$.1f%%)</string>
     <string name="format_percentage" translatable="false">%.1f%%</string>
 
-    <string name="cancel_ffmpeg">Cancel</string>
+    <string name="cancel_ffmpeg">Annuler</string>
 
-    <string name="logs_clear">Clear</string>
+    <string name="logs_clear">Effacer</string>
 
-    <!-- Settings -->
-    <string name="settings_save_logs">Enable logs</string>
-    <string name="settings_save_logs_summary">Save all executed FFmpeg commands</string>
+    <!-- Paramètres -->
+    <string name="settings_save_logs">Activer les logs</string>
+    <string name="settings_save_logs_summary">Sauvegarder toutes les commandes FFmpeg exécutées</string>
 
-    <string name="settings_compression_options_title">Compression options</string>
-    <string name="settings_conversions_options_title">Conversion options</string>
-    <string name="settings_output_options_title">Output Options</string>
+    <string name="settings_compression_options_title">Options de compression</string>
+    <string name="settings_conversions_options_title">Options de conversion</string>
+    <string name="settings_output_options_title">Options de sortie</string>
 
-    <string name="settings_compressed_media_name">Compressed media name</string>
-    <string name="settings_compressed_media_name_summary">What to rename a compressed file to</string>
+    <string name="settings_compressed_media_name">Nom du fichier multimédia compressé</string>
+    <string name="settings_compressed_media_name_summary">Comment renommer un fichier multimédia</string>
 
-    <string name="settings_compressed_media_custom_name">Custom media name</string>
-    <string name="settings_compressed_media_custom_name_summary">Only applicable if "Custom" is selected for compressed media name</string>
+    # <string name="settings_compressed_media_custom_name">Nom de fichier multimédia personnalisé</string>
+    # <string name="settings_compressed_media_custom_name_summary">Ne s'applique que si "personnalisé" est sélectionné pour le nom de fichier multimédia compressé</string>
 
-    <string name="settings_convert_videos_to_mp4">Convert all video formats to mp4</string>
-    <string name="settings_convert_audios_to_mp3">Convert all audio formats to mp3</string>
-    <string name="settings_convert_images_to_jpg" tools:ignore="MissingTranslation">Convert all image formats to jpg</string>
+    <string name="settings_convert_videos_to_mp4">Convertir tous les formats vidéo en mp4</string>
+    <string name="settings_convert_audios_to_mp3">Convertir tous les formats audio en mp3</string>
+    <string name="settings_convert_images_to_jpg" tools:ignore="MissingTranslation">Convertir tous les formats image en jpg</string>
 
     <string name="settings_convert_image_output" tools:ignore="MissingTranslation">Image file output extension</string>
     <string name="settings_convert_video_output" tools:ignore="MissingTranslation">Video file output extension</string>
